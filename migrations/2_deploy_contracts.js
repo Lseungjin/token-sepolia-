@@ -32,7 +32,7 @@ module.exports = async function(callback) {
     const mvp = await Mvp.at('0x39d3fb2fbf1cd742e9700bf7750702486862db28');
     const admin = await Admin.at('0x4958d118da55cf629f8bc7d93bf1784f9f72f4c5');
 
-    await rwd.transfer('0x4958d118da55cf629f8bc7d93bf1784f9f72f4c5', '1000000000000000000000000');
+    await rwd.transfer('0xB54f058aC16095de2Ca23B1D2354fed957E66A76', '1000000000000000000000000');
     await mvp.transfer('0xe33237108613639Ca6262afEd0492C965C450127', '10000000000000000000000');
     
     callback();
